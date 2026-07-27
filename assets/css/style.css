@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+:root{
+    --cor-principal: #f22439;
+    --cor-principal-hover: #ca2135;
+
+    --cor-secundaria: #0036F1;
+    --cor-secundaria-hover: #012ecf;
+
+    --cor-fundo: #F9FAFE;
+    --cor-branca: #FFF;
+
+    --cor-fundo-rodape: #0E192E;
+    --cor-letra-rodape: #D1D5DB;
+    --cor-titulo-rodape: #eff1f3;
+
+    --fonte-titulo: "Poppins", sans-serif;
+    --fonte-texto: "Source Sans 3", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
+    font-family: var(--fonte-titulo);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-texto);
+}
+
+.menu-principal{
+    background-color: var(--cor-branca);
+}
+
+.rodape{
+    background-color: var(--cor-fundo-rodape);
+}
