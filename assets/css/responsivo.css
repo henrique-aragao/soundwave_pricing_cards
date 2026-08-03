@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Tablet */
+@media (max-width: 1024px) {
+    *{
+        outline: 1px solid red;
+    }
+    /* Inicio do Menu */
+    .logo{
+        justify-self: center;
+    
+        flex: 0 0 100%;
+    }
+    /* Fim do Menu */
+
+    /* Inicio do Conteudo */
+    .cards-planos{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    /* Fim do Conteudo */
+
+    /* Inicio do Rodape */
+    /* Fim do Rodape */
+}
+
+/* Celular */
+@media (max-width: 768px) {
+    /* Inicio do Menu */
+
+    .menu ul{
+        flex-wrap: wrap;
+    }
+    /* Fim do Menu */
+
+    /* Inicio do Conteudo */
+    .cards-planos{
+        grid-template-columns: 1fr;
+    }
+    /* Fim do Conteudo */
+
+    /* Inicio do Rodape */
+    /* Fim do Rodape */
+}
