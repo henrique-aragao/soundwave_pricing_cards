@@ -469,7 +469,6 @@ body{
 }
 
 .botao-assinar:active{
-    border: var(--border-transparente);
     box-shadow: none;
     transform: translateY(5px) scale(.95);
 }
