@@ -2,25 +2,89 @@
 
 /* Tablet */
 @media (max-width: 1024px) {
-    *{
-        outline: 1px solid red;
+    h1{
+        font-size: 1.8rem;
     }
+
+    a{
+        font-size: 1.2rem;
+    }
+
+    li{
+        font-size: 1.2rem;
+    }
+
     /* Inicio do Menu */
+    .menu-principal{
+        padding: 20px 10px;
+        gap: var(--space-3);
+    }
+
     .logo{
-        justify-self: center;
-    
+        justify-content: center;
         flex: 0 0 100%;
+    }
+
+    .logo-img img{
+        max-width: var(--space-6);
+    }
+
+    .logo-texto{
+        font-size: 2rem;
+    }
+
+    .menu ul{
+        gap: var(--space-5);
+        padding: 0;
     }
     /* Fim do Menu */
 
     /* Inicio do Conteudo */
+    #container p{
+        font-size: 1.2rem;
+    }
+
+    .principal-plano{
+        max-width: 100%;
+        padding: var(--space-2);
+    }
+
+    .topo-principal{
+        gap: 0;
+    }
+    
+    .topo-texto{
+        flex: 100%;
+    }
+
     .cards-planos{
         grid-template-columns: repeat(2,1fr);
+    }
 
+    .preco strong{
+        font-size: 2rem;
     }
     /* Fim do Conteudo */
 
     /* Inicio do Rodape */
+    .rodape{
+        max-width: 90%;
+    }
+
+    .rodape-logo{
+        flex: 0 0 100%;
+        text-align: center;
+        margin-bottom: var(--space-3);
+    }
+
+    .rodape-redes ul{
+        flex-direction: column;
+        gap: var(--space-2);
+    }
+
+    .rodape-copy{
+        font-size: 1.2rem;
+    }
     /* Fim do Rodape */
 }
 
