@@ -23,6 +23,7 @@
     .logo{
         justify-content: center;
         flex: 0 0 100%;
+        margin-bottom: var(--space-1);
     }
 
     .logo-img img{
@@ -91,18 +92,35 @@
 /* Celular */
 @media (max-width: 768px) {
     /* Inicio do Menu */
+    .menu-principal{
+        width: 100%;
+    }
+
+    .menu{
+        margin: 20px 0;
+        flex: 0 0 100%;
+    }
 
     .menu ul{
+        gap: var(--space-3);
         flex-wrap: wrap;
     }
     /* Fim do Menu */
 
     /* Inicio do Conteudo */
+    .topo-imagem {
+        display: none;
+    }
+
     .cards-planos{
         grid-template-columns: 1fr;
     }
     /* Fim do Conteudo */
 
     /* Inicio do Rodape */
+    .rodape{
+        max-width: 95%;
+        margin-bottom: var(--space-2);
+    }
     /* Fim do Rodape */
 }
