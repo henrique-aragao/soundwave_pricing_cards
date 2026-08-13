@@ -76,7 +76,7 @@ O layout foi adaptado para diferentes tamanhos de tela:
 │
 ├── index.html
 └── README.md
-´´´
+```
 
 ---
 
