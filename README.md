@@ -12,6 +12,12 @@ O **SoundWave+** é uma plataforma fictícia de streaming de música independent
 
 ---
 
+## 🌐 Projeto Online
+
+🔗 **Acesse o projeto:** [Visualizar Projeto](https://henrique-aragao.github.io/soundwave_pricing_cards/)
+
+---
+
 ## 🎧 Planos
 
 A página apresenta três opções de assinatura:
